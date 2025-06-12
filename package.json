@@ -1,0 +1,19 @@
+{
+  "name": "razorpay-vercel-app",
+  "version": "1.0.0",
+  "description": "Minimal Razorpay integration with Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "razorpay": "^2.8.6",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
